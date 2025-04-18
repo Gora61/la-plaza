@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Restaurant La Plaza</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+    }
+
+    header {
+      background-color: #d35400;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+    }
+
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+
+    .item {
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      background-color: white;
+    }
+
+    .item:hover {
+      transform: scale(1.03);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .item:hover img {
+      transform: scale(1.05);
+    }
+
+    .info {
+      padding: 1rem;
+    }
+
+    .info h3 {
+      margin: 0 0 0.5rem 0;
+      color: #333;
+    }
+
+    .info p {
+      margin: 0 0 1rem 0;
+      color: #666;
+    }
+
+    .btn {
+      background-color: #e67e22;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 25px;
+      transition: background-color 0.3s ease;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background-color: #cf711f;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Menu du Restaurant La Plaza</h1>
+  </header>
+
+  <section class="menu">
+    <div class="item">
+      <img src="thiebou dieune.jpg" alt="Thieboudienne">
+      <div class="info">
+        <h3>Thieboudienne</h3>
+        <p>Le plat national sénégalais : riz au poisson avec légumes mijotés et sauce tomate.</p>
+        <a href="https://wa.me/221777374994?text=Je%20veux%20commander%20un%20Thieboudienne" target="_blank" class="btn">Commander</a>
+
+      </div>
+    </div>
+    <div class="item">
+      <img src="Mafe.jpg" alt="Mafé">
+      <div class="info">
+        <h3>Mafé</h3>
+        <p>Ragoût de viande ou poisson à la sauce arachide, accompagné de riz blanc.</p>
+        <a href="https://wa.me/221777374994?text=Je%20veux%20commander%20un%20Mafé" target="_blank" class="btn">Commander</a>
+
+      </div>
+    </div>
+    <div class="item">
+      <img src="Yassa.jpg" alt="Yassa Poulet">
+      <div class="info">
+        <h3>Yassa Poulet</h3>
+        <p>Plat à base de poulet mariné au citron et aux oignons, servi avec du riz.</p>
+        <a href="https://wa.me/221777374994?text=Je%20veux%20commander%20un%20Yassa Poulet" target="_blank" class="btn">Commander</a>
+
+      </div>
+    </div>
+    <div class="item">
+      <img src="Domoda.png" alt="Domoda">
+      <div class="info">
+        <h3>Domoda</h3>
+        <p>Boulettes de viande ou poisson dans une sauce tomate acidulée, épaissie à la farine, servie avec du riz blanc.</p>
+        <a href="https://wa.me/221777374994?text=Je%20veux%20commander%20un%20Domoda" target="_blank" class="btn">Commander</a>
+      </div>
+    </div>
+    <div class="item">
+      <img src="Caldou.jpg" alt="Caldou">
+      <div class="info">
+        <h3>Caldou</h3>
+        <p>Poisson mijoté dans une sauce citronnée avec du riz blanc et des légumes. Saveur douce et acidulée.</p>
+        <a href="https://wa.me/221777374994?text=Je%20veux%20commander%20un%20Caldou" target="_blank" class="btn">Commander</a>
+      </div>
+    </div>
+    <div class="item">
+      <img src="Ndambe.jpg" alt="Ndambé">
+      <div class="info">
+        <h3>Ndambé</h3>
+        <p>Haricots mijotés avec de la viande, souvent servis dans du pain comme un sandwich sénégalais.</p>
+        <a href="https://wa.me/221777374994?text=Je%20veux%20commander%20un%20Ndambé" target="_blank" class="btn">Commander</a>
+      </div>
+    </div>
+    <div class="item">
+      <img src="Fataya.jpg" alt="Fataya">
+      <div class="info">
+        <h3>Fataya</h3>
+        <p>Chaussons frits garnis de viande ou de poisson épicé, servis avec une sauce piquante.</p>
+        <a href="https://wa.me/221777374994?text=Je%20veux%20commander%20un%20Fataya" target="_blank" class="btn">Commander</a>
+      </div>
+    </div>
+    <div class="item">
+      <img src="Lakh.jpg" alt="Lakh">
+      <div class="info">
+        <h3>Lakh</h3>
+        <p>Bouillie de mil traditionnelle servie avec du lait caillé ou du lait sucré.</p>
+        <a href="https://wa.me/221777374994?text=Je%20veux%20commander%20un%20Lakh" target="_blank" class="btn">Commander</a>
+      </div>
+    </div>
+    <div class="item">
+      <img src="Bissap.jpg" alt="Bissap">
+      <div class="info">
+        <h3>Bissap</h3>
+        <p>Boisson sucrée et rafraîchissante à base de fleurs d'hibiscus.</p>
+        <a href="https://wa.me/221777374994?text=Je%20veux%20commander%20un%20Bissap" target="_blank" class="btn">Commander</a>
+      </div>
+    </div>
+    <div class="item">
+      <img src="Thiebou-yap.png" alt="Thiebou-yap">
+      <div class="info">
+        <h3>Thiebou-yap</h3>
+        <p>Riz cuisiné avec du bœuf, des carottes, du chou et des épices. Variante du Thiebou dieune sans poisson.</p>
+        <a href="https://wa.me/221777374994?text=Je%20veux%20commander%20un%20Thiebou-yap" target="_blank" class="btn">Commander</a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
